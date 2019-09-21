@@ -1,4 +1,5 @@
 import discord
+import os
 
 client = discord.Client()
 
@@ -25,4 +26,5 @@ async def on_message(message):
         await message.channel.send("네?http://imgnews.naver.net/image/433/2018/11/21/0000052157_001_20181121135917797.jpg")
 
 
-client.run("NTUxNjIwNjkwOTE1MzYwNzc0.XW99QA.UXXa1dp9uF2DOELL0w31rn-sbUM")
+access_token - os.environ["Bot_Token"]        
+client.run(access_token)
