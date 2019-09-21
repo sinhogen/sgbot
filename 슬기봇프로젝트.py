@@ -71,7 +71,7 @@ async def on_message(message):
      if message.content.startswith("!예리"):
         await message.channel.send("마성의 매력이랄까? http://imgnews.naver.net/image/433/2018/12/21/0000053330_001_20181221122002648.jpg")
     if message.content.startswith("!명령어"):
-        await message.channel.send("!안녕,!슬기,!사랑해,!박수,!제작자,!아이린,!웬디,!레드벨벳,!총,!섹시,!짐살라빔,!RBB,!BadBoy,!음파음파,!피카부,!러시안룰렛,!행복 happiness,!빨간맛,!7월7일,!3가지소원,!여름빛,!Be Natural,!예리,!조이")
+        await message.channel.send(" !안녕,!슬기,!사랑해,!박수,!제작자,!아이린,!웬디,!레드벨벳,!총,!섹시,!짐살라빔,!RBB,!BadBoy,!음파음파,!피카부,!러시안룰렛,!행복 happiness,!빨간맛,!7월7일,!3가지소원,!여름빛,!Be Natural,!예리,!조이")
         
         
         
